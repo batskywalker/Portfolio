@@ -37,3 +37,13 @@ section {
     width: 90%;
     margin: 50px auto;
 }
+
+a {
+    text-decoration: none;
+}
+
+#play {
+    padding: 1%;
+    background-color: black;
+    color: white;
+}
