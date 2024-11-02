@@ -1,5 +1,46 @@
 html {
     font-family: monospace;
+    background-color: rgb(255, 247, 248);
+    color: rgb(34, 29, 35);
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    font-size: xx-large;
+    position:sticky;
+    top: 0;
+    left: 0;
+    bottom: 100%;
+    width: 3%;
+    height: 100vh;
+    background-color: rgb(34, 29, 35);
+    padding-left: 2%;
+}
+header .hide {
+    display: none;
+}
+header:hover {
+    width: 12% !important;
+}
+header:hover .hide{
+    display: block !important;
+}
+
+header a {
+    margin-top: 10vh;
+    color: rgb(255, 247, 248);
+}
+header li {
+    margin-top: 10vh;
+}
+
+body {
+    margin-top: -100vh;
 }
 
 img {
@@ -10,12 +51,29 @@ img {
     box-shadow: 0 0 10px rgb(33, 33, 33);
 }
 
+ul {
+    list-style: none;
+}
+
 .images {
     display: flex;
     flex-wrap: wrap;
     width: 60%;
     align-content: center;
 }
+
+#about {
+    margin: 200px 5%;
+}
+
+#description {
+    padding: 1%;
+    font-size: 2.3rem;
+    width: 50%;
+    align-content: center;
+    margin-left: 5%;
+}
+
 .content {
     width: 30%;
     font-size: larger;
@@ -24,8 +82,6 @@ img {
 
 .content article {
     padding: 2%;
-    border-radius: 2px;
-    box-shadow: -1px 1px 5px rgb(33, 33, 33);
 }
 
 .vertical {
@@ -40,10 +96,16 @@ section {
 
 a {
     text-decoration: none;
+    color: rgb(34, 29, 35);
 }
 
-#play {
+#button {
     padding: 1%;
-    background-color: black;
-    color: white;
+    margin: 10px auto;
+    background-color: rgb(34, 29, 35);
+    color: rgb(255, 247, 248);
+}
+
+#raytracing {
+    margin-bottom: 0;
 }

@@ -8,12 +8,27 @@
         <title>Aaron Place</title>
     </head>
 
+    <header>
+        <a href="#about" class="hide">About Me</a>
+        <a href="#allspace" class="hide">Major Projects</a>
+        <ul class="hide">
+            <li><a href="#allspace">AllSpace</a></li>
+            <li><a href="#tank">Tank Tactics</a></li>
+            <li><a href="#asteroids">Asteroids</a></li>
+            <li><a href="#raytracing">Raytracing</a></li>
+        </ul>
+        <a class="hide">Small Prototypes</a>
+    </header>
+
     <body>
         <section id="about">
-            <p>Hi I'm Aaron. I'm currently a web designer with a passion for programming and attempting to make video games. For every project I work on in my free time, I try to learn something new. Because of that, I find myself working on many different aspects of game development. </p>
+            <div id="description">
+                <p>Hi, I'm Aaron! I'm a long time programmer, and an even longer time video game enthusiast. I'm currently a Web designer, but in my free time I love working on games and collaborating with others to come up with ideas. The feeling of envisioning a gameplay system and making it come to life is what I love most about game development, and the ability to one day be able to work with a group that can add even more life to those ideas is something even more exciting to me.</p>
+                <a href="https://docs.google.com/document/d/1zDKkvctD8HfLkG-I0yZA0Y8GUbV-73K6wQbsJNLioH8/edit?usp=sharing" target="_blank" id="button">Resume</a>
+            </div>
         </section>
 
-        <section>
+        <section id="allspace">
             <div class="images">
                 <img src="images/allspace - people.png">
                 <img src="images/allspace - scane.gif">
@@ -25,12 +40,12 @@
                 <article>
                     <p>AllSpace is a game I made for the <a href="https://itch.io/jam/lowrezjam-2023" target="_blank">2023 lowrezjam</a>. I can't think of a genre to describe the game, but I meant it to be an eerie game about exploring a damaged spaceship. The main gameplay loop consists of moving around the ship based on a map of the ship from before it was broken. A sensor warning you when theres something in front of you will aid you in finding damage blocking you from moving through the ship. When you find this damage, you can use LISA's LiDAR technology (which is actually, in engine, a bunch of raycasts that finds the distance from the rover and displays a certain brightness for that object based on the distance) to collect evidence of damage. Then you can return to the ships airlock and see the cost of the damages you found.</p>
                     <p>This is the only game I have available to play on Itch.</p>
-                    <a href="https://batskywalker.itch.io/allspace" target="_blank" id="play">Play it here</a>
+                    <a href="https://batskywalker.itch.io/allspace" target="_blank" id="button">Play it here</a>
                 </article>
             </div>
         </section>
 
-        <section>
+        <section id="tank">
             <div class="content">
                 <h1>Tank Tactics</h1>
                 <article>
@@ -46,7 +61,7 @@
             </div>
         </section>
 
-        <section>
+        <section id="asteroids">
             <div class="images">
                 <img src="images/asteroids - shooting.gif">
                 <img src="images/asteroids - looking.gif">
@@ -62,7 +77,7 @@
             </div>
         </section>
 
-        <section>
+        <section id="raytracing">
             <div class="content">
                 <h1>Raytracing</h1>
                 <article>
